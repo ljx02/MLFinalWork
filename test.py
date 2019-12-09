@@ -29,7 +29,7 @@ def evaluate(model, img_set_path, img_path, anno_path, iou_thres, conf_thres, nm
         targets[:, 2:] = xywh2xyxy(targets[:, 2:])
         targets[:, 2:] *= img_size
 
-        imgs = torch.tensor(imgs.type(Tensor), requires_grad=False)
+        imgs = imgs.type(Tensor).clone().detach().requires_grad_(False)
 
         with torch.no_grad():
             outputs = model(imgs)
