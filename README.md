@@ -5,13 +5,13 @@ YOLOv3算法
 
 #### 相关依赖
 
-```python
+```
 pip install -r requirements.txt
 ```
 
 #### 测试文件
 
-```python
+```
 python test.py --img_set_path "data/valid.txt" --img_path "data/images/" --anno_path "data/labels/"
 ```
 
