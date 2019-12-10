@@ -126,7 +126,7 @@ if __name__ == "__main__":
                 plt.text(
                     x1,
                     y1-40,
-                    s=classes[int(cls_pred)],
+                    s=classes[int(cls_pred)] +"  acc="+str(round(cls_conf.item(),4)), #显示置信度
                     color="white",
                     fontdict={"size": 10},
                     verticalalignment="top",
