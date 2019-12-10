@@ -3,6 +3,10 @@
 
 YOLOv3算法
 
+#### 已训练模型
+
+请点击[checkpoints.zip](https://bhpan.buaa.edu.cn/#/link/E33EC4005F75EE74ACADDD1FEE263482)，前往北航网盘下载已训练好的模型进行测试。
+
 #### 相关依赖
 
 ```
